@@ -1,0 +1,54 @@
+/* css da page Home*/
+
+.container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container img {
+  height: 400px;
+
+  border-radius: 100%;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Controla o espaçamento entre os elementos filhos */
+}
+
+.apresentacao h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 1.1; /* Reduz a altura da linha */
+  margin-bottom: 5px; /* Reduz o espaço abaixo do h1 */
+}
+
+.apresentacao span {
+  color: var(--secundary);
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0; /* Remove margens desnecessárias */
+  display: block; /* Mantém o span em uma nova linha sem espaçamento extra */
+}
+
+.apresentacao button {
+  margin-left: 100px;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  align-items: center;
+  border: var(--primary);
+  background-color: var(--secundary);
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: var(--back-buttom);
+}

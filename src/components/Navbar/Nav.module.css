@@ -10,7 +10,7 @@
 }
 
 .header span {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--secundary);
   padding: 10px;
@@ -19,7 +19,7 @@
 .header a {
   text-decoration: none;
   color: #000;
-  padding-right: 1.5rem;
+  padding-right: 2rem;
   font-size: 1rem; /* 16px */
 }
 
