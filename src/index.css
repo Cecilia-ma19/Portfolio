@@ -11,4 +11,5 @@
   padding: 0;
   box-sizing: border-box;
   background-color: var(--primary);
+  font-family: "Kumbh Sans", sans-serif;
 }

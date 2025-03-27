@@ -1,5 +1,3 @@
-/* css da page Home*/
-
 .container {
   width: 100%;
   min-height: 90vh;
@@ -38,6 +36,11 @@
   display: block;
 }
 
+.apresentacao button {
+  margin-left: 0; /* Remove margem fixa */
+  align-self: center; /* Centraliza o botão no flex container */
+}
+
 .btn {
   width: 200px;
   height: 40px;
@@ -47,11 +50,6 @@
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
-  margin-left: 200px;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: var(--primary);
 }
 
 .btn:hover {
