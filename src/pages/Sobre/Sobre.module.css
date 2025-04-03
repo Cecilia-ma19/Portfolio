@@ -1,0 +1,78 @@
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.sobre img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.apresentacao {
+  max-width: 600px;
+}
+
+.apresentacao h1 {
+  font-size: 2rem;
+  color: var(--secundary);
+  text-align: center;
+}
+
+.apresentacao p {
+  font-size: 1.2rem;
+  font-family: var(--secundary-font);
+}
+
+/* Centralizar "Habilidades" */
+.skills {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.skills h2 {
+  color: var(--secundary);
+  font-size: 2rem;
+}
+
+.skillsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 60px;
+  color: #9b8a7f;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skill:hover .icon {
+  transform: scale(1.2);
+  color: var(--secundary); /* Ou qualquer outra cor que desejar */
+}
+
+.skill:hover {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill p {
+  margin-top: 10px;
+  font-weight: bold;
+}

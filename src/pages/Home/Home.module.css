@@ -50,6 +50,11 @@
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary);
 }
 
 .btn:hover {

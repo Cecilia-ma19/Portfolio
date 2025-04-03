@@ -1,8 +1,16 @@
 import "./App.css";
-import AppRoutes from "./routes";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home"; // Importando a Home
+import Sobre from "./pages/Sobre/Sobre"; // Importando Sobre
 
 function App() {
-  return <AppRoutes />;
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Sobre />
+    </>
+  );
 }
 
 export default App;
