@@ -7,7 +7,7 @@
 
   --primary: #faeee7;
   --secundary: #bf7964;
-  --complements: #ff6600;
+  --complements: #ff6600af;
   --back-buttom: #f0a68f;
 }
 
@@ -17,4 +17,8 @@
   box-sizing: border-box;
   background-color: var(--primary);
   font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 2rem;
 }

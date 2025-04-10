@@ -7,15 +7,22 @@ import Styles from "./Home.module.css";
 const Home = () => {
   return (
     <>
-      <section className={Styles.container}>
+      <section id="home" className={Styles.container}>
         <div className={Styles.apresentacao}>
           <h1>
             Olá! Eu sou a Cecília, <br />
             <span>desenvolvedora Front-End.</span>
           </h1>
-          <Link to="/sobre" smooth={true} duration={300}>
-            Saiba mais
-          </Link>
+          <button className={Styles.btn}>
+            <Link
+              to="sobre"
+              smooth={true}
+              duration={300}
+              className={Styles.link}
+            >
+              Saiba mais
+            </Link>
+          </button>
         </div>
         <figure>
           <img className="img-home" src="/avatar.webp" alt="Imagem de Home" />

@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
 
 const Contatos = () => {
   return (
-    <>
-      <Navbar />
-      <Footer />
-    </>
+    <section id="contatos" className="contatos">
+      <h1>Ola</h1>
+    </section>
   );
 };
 

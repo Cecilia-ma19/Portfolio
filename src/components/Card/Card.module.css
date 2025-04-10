@@ -1,0 +1,85 @@
+.card {
+  word-break: break-word;
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  padding: 26px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.658);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+}
+
+.card_conteudo {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+  filter: blur(2px);
+  transition: filter 0.3s ease;
+  max-width: 370px;
+  max-height: 470px;
+}
+
+.card:hover img {
+  filter: blur(0px);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card h3,
+.card p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.card_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.card_icones {
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  padding: 15px 0;
+  justify-content: center;
+}
+
+.card_botoes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card_botao {
+  background-color: var(--complements);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}

@@ -19,6 +19,9 @@ const Navbar = () => {
         <Link to="projetos" smooth={true} duration={300}>
           Projetos
         </Link>
+        <Link to="contatos" smooth={true} duration={300}>
+          Contatos
+        </Link>
       </nav>
     </header>
   );
