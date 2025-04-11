@@ -3,7 +3,7 @@
   width: 400px;
   height: 400px;
   border-radius: 5px;
-  padding: 26px;
+  padding: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.658);
   overflow: hidden;
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 .card img {
-  filter: blur(2px);
+  filter: brightness(20%);
   transition: filter 0.3s ease;
   max-width: 370px;
   max-height: 470px;

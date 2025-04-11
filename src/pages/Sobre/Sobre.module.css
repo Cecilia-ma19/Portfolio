@@ -74,3 +74,29 @@
   margin-top: 10px;
   font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+  .sobre {
+    flex-direction: column-reverse; /* Coloca a imagem abaixo do texto em telas menores */
+    text-align: center;
+  }
+
+  .sobre img {
+    height: 500px; /* Reduz o tamanho da imagem */
+  }
+
+  .apresentacao p {
+    font-size: 1.5rem; /* Reduz o tamanho do título */
+  }
+}
+
+/* 📱 Ajuste fino para celulares */
+@media (max-width: 600px) {
+  .sobre {
+    height: 200px;
+  }
+
+  .apresentacao h1 {
+    font-size: 2.5rem;
+  }
+}

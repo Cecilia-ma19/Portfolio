@@ -72,7 +72,6 @@
   justify-content: center;
 }
 
-/* 📱 Responsividade para telas menores */
 @media (max-width: 1024px) {
   .container {
     flex-direction: column-reverse; /* Coloca a imagem abaixo do texto em telas menores */

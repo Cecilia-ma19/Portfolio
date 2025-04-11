@@ -17,21 +17,17 @@ const Sobre = () => {
         </figure>
         <div className={Styles.apresentacao}>
           <h1>Sobre mim</h1>
-          <span></span>
+
           <p>
             Olá, sou Cecília Maria, tenho 20 anos e sou formada em Análise e
-            Desenvolvimento de Sistemas.
-            <br />
-            Estou em busca de oportunidades para iniciar minha carreira como
-            Desenvolvedora Front-End, com o objetivo de aprimorar minhas
-            habilidades e adquirir experiência no mercado de trabalho.
-            <br />
-            Tenho paixão por criar interfaces criativas e intuitivas, focadas na
-            melhor experiência do usuário. Acredito que tecnologia e design
-            caminham juntos para tornar a navegação mais envolvente e funcional.{" "}
-            <br />
-            Meu propósito é contribuir com soluções inovadoras e seguir
-            evoluindo continuamente na área da tecnologia.
+            Desenvolvimento de Sistemas. Estou em busca de oportunidades para
+            iniciar minha carreira como Desenvolvedora Front-End, com o objetivo
+            de aprimorar minhas habilidades e adquirir experiência no mercado de
+            trabalho. Tenho paixão por criar interfaces criativas e intuitivas,
+            focadas na melhor experiência do usuário. Acredito que tecnologia e
+            design caminham juntos para tornar a navegação mais envolvente e
+            funcional. Meu propósito é contribuir com soluções inovadoras e
+            seguir evoluindo continuamente na área da tecnologia.
           </p>
         </div>
       </section>
