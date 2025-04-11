@@ -1,6 +1,5 @@
 # 📘 Projeto: Cecília Maria
 
-![Status do Projeto](https://img.shields.io/badge/status-online-green)
 
 > Projeto pessoal desenvolvido com foco em design, responsividade e experiência do usuário.  
 > Publicado em: [cecilia-maria.vercel.app](https://cecilia-maria.vercel.app)
@@ -17,7 +16,7 @@ O projeto **Cecília Maria** é uma aplicação front-end com uma proposta visua
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) <!-- ou Tailwind CSS -->
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Vercel](https://vercel.com/) (para hospedagem)
 
 ---
@@ -60,3 +59,8 @@ npm install
 
 # Rode o projeto
 npm run dev
+
+
+
+![Preview do Projeto](./preview_cecilia_maria.gif)
+
