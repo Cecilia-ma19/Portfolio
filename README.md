@@ -59,8 +59,12 @@ npm install
 
 # Rode o projeto
 npm run dev
-
-
+```
 
 ![Preview do Projeto](./preview_cecilia_maria.gif)
+
+
+
+
+
 
