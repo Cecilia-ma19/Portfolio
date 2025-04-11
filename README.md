@@ -8,7 +8,7 @@
 
 ## 📌 Sobre o Projeto
 
-O projeto **Cecília Maria** é uma aplicação front-end com uma proposta visual marcante, voltada para apresentar conteúdo de forma fluida, responsiva e criativa. Idealizado como um experimento pessoal, o projeto me permitiu aplicar conceitos fundamentais de desenvolvimento moderno com **React** e **Vite**.
+O projeto é uma aplicação front-end com uma proposta visual marcante, voltada para apresentar conteúdo de forma fluida, responsiva e criativa. Idealizado como um experimento pessoal, o projeto me permitiu aplicar conceitos fundamentais de desenvolvimento moderno com **React** e **Vite**.
 
 ---
 
