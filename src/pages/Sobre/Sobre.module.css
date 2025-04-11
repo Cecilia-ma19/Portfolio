@@ -16,6 +16,7 @@
 }
 
 .apresentacao h1 {
+  padding: 10px 0;
   font-size: 2rem;
   color: var(--secundary);
   text-align: center;
@@ -75,28 +76,50 @@
   font-weight: bold;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sobre {
-    flex-direction: column-reverse; /* Coloca a imagem abaixo do texto em telas menores */
+    flex-direction: column;
+    padding: 30px 20px;
     text-align: center;
   }
 
   .sobre img {
-    height: 500px; /* Reduz o tamanho da imagem */
-  }
-
-  .apresentacao p {
-    font-size: 1.5rem; /* Reduz o tamanho do título */
-  }
-}
-
-/* 📱 Ajuste fino para celulares */
-@media (max-width: 600px) {
-  .sobre {
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 
   .apresentacao h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .apresentacao p {
+    font-size: 1rem;
+  }
+
+  .skills h2 {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    font-size: 40px;
+  }
+
+  .skill {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .apresentacao p {
+    font-size: 0.95rem;
+  }
+
+  .skillsGrid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    width: 80%;
   }
 }
