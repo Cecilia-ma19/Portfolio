@@ -1,12 +1,62 @@
-# React + Vite
+# 📘 Projeto: Cecília Maria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status do Projeto](https://img.shields.io/badge/status-online-green)
 
-Currently, two official plugins are available:
+> Projeto pessoal desenvolvido com foco em design, responsividade e experiência do usuário.  
+> Publicado em: [cecilia-maria.vercel.app](https://cecilia-maria.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Sobre o Projeto
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto **Cecília Maria** é uma aplicação front-end com uma proposta visual marcante, voltada para apresentar conteúdo de forma fluida, responsiva e criativa. Idealizado como um experimento pessoal, o projeto me permitiu aplicar conceitos fundamentais de desenvolvimento moderno com **React** e **Vite**.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) <!-- ou Tailwind CSS -->
+- [Vercel](https://vercel.com/) (para hospedagem)
+
+---
+
+## ⚙️ Funcionalidades
+
+- Layout 100% responsivo
+- Navegação intuitiva
+- Interface leve e rápida com Vite
+- Animações sutis para melhorar a experiência do usuário
+
+---
+
+## 🧠 Aprendizados
+
+- Estruturação de projetos com Vite e React
+- Deploy e versionamento com Vercel
+- Organização de componentes reutilizáveis
+- Práticas de responsividade e UX
+
+---
+
+## 🚀 Acesse o Projeto
+
+🔗 [cecilia-maria.vercel.app](https://cecilia-maria.vercel.app)
+
+---
+
+## 📥 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/cecilia-maria.git
+
+# Acesse a pasta
+cd cecilia-maria
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
