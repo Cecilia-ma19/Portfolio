@@ -9,13 +9,6 @@ const projetos = [
     linkProjeto: "https://meuprojeto1.com",
     linkRepo: "https://github.com/seurepo1",
   },
-  {
-    titulo: "Em breve..",
-    descricao: "",
-    imagem: "",
-    linkProjeto: "",
-    linkRepo: "",
-  },
 ];
 
 const Projetos = () => {
