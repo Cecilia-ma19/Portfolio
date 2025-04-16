@@ -34,6 +34,17 @@
   filter: blur(0px);
 }
 
+.cardVideo {
+  filter: brightness(20%);
+  transition: filter 0.3s ease;
+  max-width: 370px;
+  max-height: 470px;
+}
+
+.cardVideo:hover {
+  filter: blur(0px);
+}
+
 .card h3 {
   font-size: 1.3rem;
   font-weight: 700;
