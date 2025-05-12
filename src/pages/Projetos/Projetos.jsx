@@ -18,6 +18,14 @@ const projetos = [
     linkRepo: "https://github.com/Cecilia-ma19/ChatGPT-Clone-UI",
     tecnologias: ["HTML", "CSS"],
   },
+  {
+    titulo: "Site de Petshop",
+    descricao: "Site de petshop com layout responsivo.",
+    imagem: "/petshop.jpg",
+    linkProjeto: "https://site-pet-shop-bem-humorado.vercel.app/",
+    linkRepo: "https://github.com/Cecilia-ma19/Site-PetShop-Bem-Humorado.git",
+    tecnologias: ["HTML", "CSS"],
+  },
 ];
 const Projetos = () => {
   return (
